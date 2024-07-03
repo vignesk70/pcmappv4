@@ -8,4 +8,5 @@ EXPOSE 3000
 RUN chown -R node /usr/src/app
 USER node
 # CMD ["npm", "run","start"]
-CMD ["npm","run","dev"]
+# CMD ["npm","run","dev"]
+CMD ["node","/usr/src/app/.output/server/index.mjs"]

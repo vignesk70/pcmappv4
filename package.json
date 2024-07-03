@@ -12,7 +12,13 @@
   "dependencies": {
     "@nuxt/ui": "^2.17.0",
     "nuxt": "^3.12.2",
+    "pg": "^8.12.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.3",
     "vue": "^3.4.29",
     "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "nuxt-neo4j": "^0.0.4"
   }
 }
