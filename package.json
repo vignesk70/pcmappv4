@@ -19,6 +19,7 @@
     "vue-router": "^4.3.3"
   },
   "devDependencies": {
+    "nuxt-file-storage": "^0.2.7",
     "nuxt-neo4j": "^0.0.4"
   }
 }
